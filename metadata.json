@@ -1,0 +1,6 @@
+{
+  "name": "Telegram Business AI Bot Studio",
+  "description": "Telegram Business Chat Automation bot generator and simulator powered by Gemini AI and aiogram 3.x",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  telegram_business_bot:
+    build: .
+    container_name: tg_business_bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./bot.log:/app/bot.log
